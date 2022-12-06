@@ -1,177 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:ital,wght@1,200&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Open Sans';
-    
-    
-    
-}
-
-*::-webkit-scrollbar {
-    width: 8px;
-    background-color: rgb(216, 216, 216);
-}
-
-*::-webkit-scrollbar-thumb {
-    background-color:#dc3545;
-    border-radius: 5px;
-    
-}
-
-.foto-mia {
-    width:13 0px;
-    height:100px;
-    
-
-}
-
-.container {
-    height: 100vh;
-    display: flex;
-    position:relative;
-    z-index: 2;
-}
-
-.info {
-    width: 235px;
-    background-color:#121212;    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-
-}
-
-.info-persona {
-    margin-bottom: 30px;
-    
-}
-
-.info-persona .foto-mia {
-    border-radius: 60%;
-    display: block;
-    margin: auto;
-    border: 4px solid #484848;
-    margin-bottom:15px;
-    
-
-}
-
-.info-persona span {
-
-    font-size: 19px;
-    color: #fff;
-   
-    
-
-}
-
-.info-persona p{
-    font-size: 16px;
-    color: #8a8a8a;
-    padding-top: 10px;
-}
-
-nav ul {
-    list-style: none;
-
-}
-
-nav li{
-    margin: 15px 0;
-}
-
-nav ul li a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 18px;    
-}
-
-nav ul li a:hover {
-    color: #dc3545;
-    transition: all 0.3s;
-}
-
-#selectionn {
-    color:#dc3545;
-}
-
-.portada {   
-    width: 100vw;
-    background: linear-gradient(
-        rgba(0,0,0,.5),
-        rgba(0,0,0,.5)), url(showcase.jpg);
-        background-size:cover;
-        background-position: center center;
-        display: flex;
-        flex-direction: column;   
-        justify-content: center;
-        text-align: center;
-}
-
-.portada h1 {
-    font-size: 68px;
-    color: #fff;
-
-}
-.portada h1 .rojo {
-    color:#dc3545 ;
-}
-
-.portada p {
-    font-size: 32px;
-    color: #fff;
-}
-
-.boton1 {
-    display: block;
-    width: 180px;
-    margin: 0 auto;
-    background-color: transparent;
-    border:4px solid #dc3545;
-    margin-top: 30px;
-    padding: 10px 0;
-    border-radius: 50px;
-    color:#fff;
-    font-size: 20px;
-
-}
-
-.boton1:hover {
-    background-color: rgb(29, 28, 28);
-    transition: all 0.4s;
-}
-
-
-.h44 {
-    color: #fff;
-	font-size:1.5rem ;
-	text-transform: uppercase;
-	font-weight:500;
-	padding-bottom: 50px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-
-.pa { 
-    color: #fff;
-	font-size: 1rem;
-	margin: 10px 0;
-	line-height: 1.7em;
-    font-family: 'Montserrat', sans-serif;
-}
 
 
 
-/* Projects */
 #projects {
 	padding: 30px 0;
     position:relative;
-    
+    z-index: 2;
 }
 
 .projects-row {
@@ -214,14 +47,14 @@ nav ul li a:hover {
 
 .contact-row-icon img {
 	height: 60px;
-    
+    z-index: 2;
 }
 
 
 
 .projects-row {
     display: flex;
-    
+    z-index: 2;
 
     }
     
@@ -245,7 +78,7 @@ nav ul li a:hover {
 
     p {
         color:#fff;
-        
+        z-index: 2;
     }
 
     #contact {
@@ -258,6 +91,8 @@ nav ul li a:hover {
         padding: 20px 80px;
         border-radius: 10px;
         margin-top: 50px;
+        
+        
     }
 
     .form {
@@ -270,7 +105,7 @@ nav ul li a:hover {
 
     .form_input {
         
-
+        
         margin: 9px 0;
         width: 700px;
         padding:4px;
@@ -368,7 +203,7 @@ nav ul li a:hover {
     .box {
         background: rgba(0,0,0,.07);
         padding: 1.8rem 2rem;
-        
+        z-index: 2;
         
     }
 
@@ -378,7 +213,7 @@ nav ul li a:hover {
         position: relative;
         width: 100%;
         display: block;
-        
+        z-index: 2;
     }
 
     .skills-list .item_skill .icon-skill {
@@ -485,7 +320,7 @@ nav ul li a:hover {
 	    font-weight: 600;
 	    padding-bottom:50px;   
         font-family: 'Montserrat', sans-serif;  
-        
+        z-index: 2;
         
     }
 
@@ -524,50 +359,33 @@ nav ul li a:hover {
         height:100px;
         overflow: hidden;
         border-radius: 10px;
-        
+        z-index: 2;
     }
 
     #h1-id {
         top:40px;
     }
 
-    video {
-        position: absolute;
-        top: 0;
-        left: 0;
+    .video-cuerpo {   
         width: 100%;
-        height: 100%;
-        object-fit: cover;
-        
+        background: linear-gradient(
+            rgba(0,0,0,.5),
+            rgba(0,0,0,.5)), url(../../assets/fondo.jpg);
+            
     }
+    
+
+    
 
     .cuerpo {
         
-        
+        z-index: 2; 
         top:300px;
         text-align: center;        
         overflow: hidden;
     }
 
     
-    
-
-    body {
-        min-height: 100vh;
-        position: relative;
-        
-    }
-
-    .capa {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: #1c1c1d;
-        opacity: 0.7;
-        
-    }
 
     .barra-top {             
         position: absolute;       
@@ -578,75 +396,6 @@ nav ul li a:hover {
      
     }
 
-    .barra-bottom {             
-        position: absolute;       
-        z-index: 2;
-        width: 100%;
-        border-bottom: 3px solid #af222e ;
-        margin-bottom: 10px;
-     
-    }
-
-    footer{
-        position: relative;
-        bottom: 0;
-        left: 0;
-        right: 0; 
-        height: auto;
-        width: auto;      
-        padding-top: 60px;        
-    }
-    
-    .footer-content{
-        background: rgb(12, 12, 12);
-        width: 100vw;       
-        text-align: center;
-        width: auto;
-    }
-    .footer-content p{
-        font-size: 14px;
-        word-spacing: 2px;
-        text-transform: capitalize;     
-    }
-    .footer-content span{
-        text-transform: uppercase;
-        opacity: .4;
-        font-weight: 200;
-    }
-
-    .socials{
-        list-style: none;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 1rem 0 1rem 0;
-    }
-    .socials li{
-        margin: 0 10px;
-    }
-    .socials a{
-        text-decoration: none;
-        color: #fff;
-    }
-    .socials a i{
-        font-size: 1.1rem;
-        transition: color .4s ease;
-    
-    }
-    .socials a:hover i{
-        color: rgb(121, 122, 122);
-    }
-
-    .footer-bottom {
-        padding-bottom: 30px; 
-        padding-top: 10px;
-    }
-
-    
-
-    
-    
-    
     
 
     

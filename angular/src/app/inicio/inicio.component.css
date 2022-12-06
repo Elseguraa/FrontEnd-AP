@@ -102,7 +102,13 @@ nav ul li a:hover {
     border-radius: 50px;
     color:#fff;
     font-size: 20px;
+    
 
+}
+
+.button_1 {
+    text-decoration: none;
+    color: #fff;
 }
 
 .boton1:hover {
