@@ -1,20 +1,90 @@
 
 
 
+
 #projects {
 	padding: 30px 0;
     position:relative;
     z-index: 2;
 }
 
-.projects-row {
-	display: flex;
+.containerr {
+    margin: auto;
+    max-width: 1500px;       
+    padding: 0 1rem 0 1rem;
+    z-index:2;
+   
     
 }
 
-.projects-row img {
+
+.projects-row {
+    display: flex;
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .projects-row figure {
+        overflow: hidden;
+        border-radius: 10px;
+        box-shadow: 0px 15px 25px rgba(0,0,0, 0.50);
+        cursor:pointer;
+    }
+
+
+.projects-row figure img {
 	width: 100%;
+    height: 100%;
+    transition: all 800ms ease-out;
     
+}
+
+.projects-row figure .capa {
+    position: absolute;
+    width: 490px;
+    height:327px;
+    border-radius: 10px;
+    background: rgba(182, 182, 182, 0.7);
+    transition: all 800ms ease-out;
+    top: 123px;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.projects-row figure:hover > .capa {
+    opacity: 1;
+    visibility: visible;
+  
+}
+
+.projects-row figure:hover > .capa h3 {
+    margin-top: 70px;
+    margin-bottom: 15px;
+
+}
+
+.projects-row figure:hover > img{
+    transform: scale(1.3);
+
+}
+
+.projects-row figure .capa h3 {
+    color: #ffffff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 800ms ease-out;
+    margin-top: 30px;
+}
+
+.projects-row figure .capa p {
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
 }
 
 /* About */
@@ -30,46 +100,15 @@
 
 
 
-#contact {
-	padding: 80px;
-    position:relative;
-    z-index: 2;
-}
 
-.contact-row {
-	display: flex;
     
-}
-.contact-row-icon {
-	width: 45%;
-	text-align: center;
-}
-
-.contact-row-icon img {
-	height: 60px;
-    z-index: 2;
-}
-
-
-
-.projects-row {
-    display: flex;
-    z-index: 2;
-
-    }
     
     .info {
         padding-top:50px;
     }
     
-    .containerr {
-        margin: auto;
-        max-width: 1500px;       
-        padding: 0 1rem 0 1rem;
-        z-index:2;
-        
-        
-    }
+    
+ 
     
     .large {
         font-size: 20px;
@@ -82,26 +121,16 @@
     }
 
     #contact {
-        display: flex;     
-        flex-wrap: wrap;
         background-color: rgba(0,0,0, 0.09) ;      
-        width: 820px;
-        height: 310px;
-        margin: auto;
-        padding: 20px 80px;
+        max-width: 800px;
+        max-height: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1.5em;
         border-radius: 10px;
-        margin-top: 50px;
-        
         
     }
 
-    .form {
-        
-        min-width: 400px;
-        flex: 1;      
-        padding-bottom: 100px;
-        
-    }
 
     .form_input {
         
@@ -133,8 +162,9 @@
         border: solid #dc3545;
         padding: 10px;
         width: 100px;        
-        border-radius: 10px;
-        margin: 10px 600px;
+        border-radius: 10px;     
+        margin: auto;
+        margin-top: 20px;
         
         
     }
@@ -145,7 +175,8 @@
         padding: 10px;
         width: 100px;
         border-radius: 10px;
-        margin: 10px 600px;
+        margin: auto;
+        margin-top: 20px;
         transition: all .8s;
     }
 
@@ -155,7 +186,8 @@
         padding: 10px;
         width: 100px;
         border-radius: 10px;
-        margin: 10px 600px;
+        margin: auto;
+        margin-top: 20px;
         transition: all .8s;
     }
 
@@ -174,141 +206,80 @@
         font-size: 1.1rem !important ;
         line-height: 1.6 !important ;
         margin-top: .5rem !important;
-        padding-bottom: 50px !important;
+        padding-bottom: 30px !important;
         
         
         
     }
 
-    .conteiner_ul {
-        display: flex;
-        flex-direction: column;   
-        justify-content: center;
-        text-align: center;
-        
-    }
-
-
-    .skills-list {   
-        
-        border-radius: 1rem;
-        display: grid;
-        gap: 0 1rem;
-        grid-template-columns: repeat(auto-fill,minmax(120px,1fr));
-        list-style: none;
-        overflow: hidden;
-       
-    }
-    
-    .box {
-        background: rgba(0,0,0,.07);
-        padding: 1.8rem 2rem;
-        z-index: 2;
-        
-    }
-
-    
-
-    .section {
-        position: relative;
+    .skills {
         width: 100%;
-        display: block;
-        z-index: 2;
+        max-width: 600px;
+        padding: 0 20px;
+        margin: auto;
     }
 
-    .skills-list .item_skill .icon-skill {
-        
+    .skill-name {
+        font-size: 18px;
+        font-weight: 700;
+        color: #f1f1f1;
+        text-transform: uppercase;
+        margin: 20px 0;
+        padding: 20px 20px 20px 20px;
 
-        align-items: center;
-        display: flex;
-        height: 3rem;
-        padding-left: 0.3rem;
-        width: 3rem;
     }
 
-    .skills-list .item_skill .html {
-        
-
-        border-left: 3px solid #ff4700;
-        padding-bottom: 10px;
-        height: 70%;
+    .skill-bar {
+        height: 14px;
+        background: #282828;
+        border-radius: 3px;
     }
-
-    .skills-list .item_skill .css {
-        border-left: 3px solid #0004ff;
-        padding-bottom: 10px;
-        height: 70%;
-    }
-
-    .skills-list .item_skill .javascript {
-        border-left: 3px solid #e9b300;
-        padding-bottom: 10px;
-        height: 70%;
+    .skill-per {
+        height: 14px;
+        background: #d13639;
+        border-radius: 3px;
         position: relative;
-        right: 20px;
-    }
-
-    .skills-list .item_skill .angular {
-        border-left: 3px solid #ff0000;
-        padding-bottom: 10px;
-        height: 70%;
-    }
-
-    .skills-list .item_skill .java {
-        border-left: 3px solid #ffffff;     
-        padding-bottom: 10px;
-        height: 70%;
-    }
-
-    .icons-html {
-        width: 50px;
-        height:50px;
+        animation: fillBars 2.5s 1;
         
     }
 
-    .icons-css {
-        width: 50px;
-        height:50px;
-        padding-left: 7px;
-        
+    .skill-per::before {
+        content: attr(per);
+        position: absolute;
+        padding: 2px 6px;
+        background: #f1f1f1;
+        border-radius: 4px;
+        font-size: 12px;
+        top: -35px;
+        right: 0;
+        transform: translateX(50%);
     }
 
-    .icons-javas {
-        width: 90px;
-        height:50px;
-        right:15px ;
-        position: relative;
-        
+    .skill-per::after {
+        content: "";
+        position: absolute;
+        width:10px;
+        height: 10px;
+        background: #f1f1f1;
+        border-radius: 2px;
+        top: -20px;
+        right: 0;
+        transform: translateX(50%) rotate(45deg);
+        font-size: 12px;
     }
 
-    .skill-name-javas {
-        position: relative;
-        right: 25px;
+    @keyframes fillBars {
+        from{
+            width: 0;
+        }
+        to {
+            width: 100%;
+        }
+
+
+
     }
 
-    .skill-name-css {
-        position: relative;
-        left: 10px;
-    }
-
-    .skill-name-java {
-        position: relative;
-        left: 10px;
-    }
-
-    .icons-angular {
-        width: 50px;
-        height:50px;
-        position: relative;
-        top: 3px;
-        
-    }
-
-    .icons-java {
-        width: 50px;
-        height:50px;
-        
-    }
 
     .h22 {
         display: inline-block;
@@ -317,9 +288,10 @@
         font-size:1.8rem;
 	    text-align: center;
 	    text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif; 
 	    font-weight: 600;
 	    padding-bottom:50px;   
-        font-family: 'Montserrat', sans-serif;  
+         
         z-index: 2;
         
     }
@@ -336,12 +308,12 @@
     }
 
     
-
     .h22:hover::before, .h22:hover::after{
         transform:scale(1)
         
         
     }
+    
 
     .h22::before{
         left:-140px;

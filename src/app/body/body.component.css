@@ -1,0 +1,390 @@
+
+
+
+#projects {
+	padding: 30px 0;
+    position:relative;
+    z-index: 2;
+}
+
+.projects-row {
+	display: flex;
+    
+}
+
+.projects-row img {
+	width: 100%;
+    
+}
+
+/* About */
+#about {
+	padding: 80px 0;
+	
+}
+
+.about-row {
+	margin: auto;
+    width: 90%;
+}
+
+
+
+
+
+
+
+.projects-row {
+    display: flex;
+    z-index: 2;
+
+    }
+    
+    .info {
+        padding-top:50px;
+    }
+    
+    .containerr {
+        margin: auto;
+        max-width: 1500px;       
+        padding: 0 1rem 0 1rem;
+        z-index:2;
+        
+        
+    }
+    
+    .large {
+        font-size: 20px;
+    }
+
+
+    p {
+        color:#fff;
+        z-index: 2;
+    }
+
+    #contact {
+        background-color: rgba(0,0,0, 0.09) ;      
+        max-width: 800px;
+        max-height: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1.5em;
+        border-radius: 10px;
+        
+    }
+
+
+    .form_input {
+        
+        
+        margin: 9px 0;
+        width: 700px;
+        padding:4px;
+        border: none;
+        border-bottom: 3px solid #64171e;
+        background: transparent;
+        color: #fff;
+
+    }
+
+    .form_input:focus {
+        background: linear-gradient(to bottom, transparent,rgb(36, 36, 36));
+        outline: none;
+        border-bottom: 3px solid #dc3545;
+        transition: all 0.6s;
+    }
+
+    .form textarea {
+        min-height: 100px;
+        resize: none;
+    }
+
+    .form_input[type="submit"] {
+        background-color:transparent;       
+        border: solid #dc3545;
+        padding: 10px;
+        width: 100px;        
+        border-radius: 10px;     
+        margin: auto;
+        margin-top: 20px;
+        
+        
+    }
+
+    .form_input[type="submit"]:hover {
+        background-color:#dc3545;
+        border: solid #dc3545;
+        padding: 10px;
+        width: 100px;
+        border-radius: 10px;
+        margin: auto;
+        margin-top: 20px;
+        transition: all .8s;
+    }
+
+    .form_input[type="submit"]:focus {
+        background-color:#dc3545;
+        border: solid #dc3545;
+        padding: 10px;
+        width: 100px;
+        border-radius: 10px;
+        margin: auto;
+        margin-top: 20px;
+        transition: all .8s;
+    }
+
+    .form_input[type="submit"]:active {
+        background: linear-gradient(to bottom,#dc3545,#aa1a2a);
+    }
+
+    .button_1 {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    #p_1 {
+        color: #ccc !important;
+        font-family:'Open Sans', sans-serif  !important;
+        font-size: 1.1rem !important ;
+        line-height: 1.6 !important ;
+        margin-top: .5rem !important;
+        padding-bottom: 50px !important;
+        
+        
+        
+    }
+
+    .row {
+        justify-content: center;
+        text-align: center;
+        
+    }
+
+
+    .skills-list {   
+        
+        border-radius: 1rem;
+        display: grid;
+        gap: 0 1rem;
+        grid-template-columns: repeat(auto-fill,minmax(120px,1fr));
+        list-style: none;
+        overflow: hidden;
+       
+    }
+    
+    .box {
+        background: rgba(0,0,0, 0.09);
+        padding: 1.5rem 2rem;
+        z-index: 2;
+        
+    }
+
+    
+
+    .section {
+        position: relative;
+        width: 100%;
+        display: block;
+        z-index: 2;
+    }
+
+    .skills-list .item_skill .icon-skill {
+        
+
+        align-items: center;
+        display: flex;
+        height: 3rem;
+        padding-left: 0.3rem;
+        width: 3rem;
+    }
+
+    .skills-list .item_skill .html {
+        
+
+        border-left: 3px solid #ff4700;
+        padding-bottom: 10px;
+        height: 70%;
+    }
+
+    .skills-list .item_skill .css {
+        border-left: 3px solid #0004ff;
+        padding-bottom: 10px;
+        height: 70%;
+    }
+
+    .skills-list .item_skill .javascript {
+        border-left: 3px solid #e9b300;
+        padding-bottom: 10px;
+        height: 70%;
+        position: relative;
+        right: 20px;
+    }
+
+    .skills-list .item_skill .angular {
+        border-left: 3px solid #ff0000;
+        padding-bottom: 10px;
+        height: 70%;
+    }
+
+    .skills-list .item_skill .java {
+        border-left: 3px solid #ffffff;     
+        padding-bottom: 10px;
+        height: 70%;
+    }
+
+    .icons-html {
+        width: 50px;
+        height:50px;
+        
+    }
+
+    .icons-css {
+        width: 50px;
+        height:50px;
+        padding-left: 7px;
+        
+    }
+
+    .icons-javas {
+        width: 90px;
+        height:50px;
+        right:15px ;
+        position: relative;
+        
+    }
+
+    .skill-name-javas {
+        position: relative;
+        right: 20px;
+        top: 10px;
+    }
+
+    .skill-name-html {
+        position: relative;
+        left: 5px;
+        top: 10px;
+    }
+
+    .skill-name-angular {
+        position: relative;
+        left: 5px;
+        top: 10px;
+    }
+
+    .skill-name-css {
+        position: relative;
+        left: 15px;
+        top: 10px;
+    }
+
+    .skill-name-java {
+        position: relative;
+        left: 15px;
+        top: 10px;
+    }
+
+    .icons-angular {
+        width: 50px;
+        height:50px;
+        position: relative;
+        top: 3px;
+        
+    }
+
+    .icons-java {
+        width: 50px;
+        height:50px;
+        
+    }
+
+    .h22 {
+        display: inline-block;
+        position: relative;
+        color: #fff;
+        font-size:1.8rem;
+	    text-align: center;
+	    text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif; 
+	    font-weight: 600;
+	    padding-bottom:50px;   
+         
+        z-index: 2;
+        
+    }
+
+    .h22::after,.h22::before{
+        content: '';
+        position: absolute;
+        width: 120px;
+        height: 3px;
+        background-color: #dc3545;
+        top:0.6em;
+        transform:scale(0);
+        transition: all 0.3s ease-in;
+    }
+
+    
+
+    .h22:hover::before, .h22:hover::after{
+        transform:scale(1)
+        
+        
+    }
+
+    .h22::before{
+        left:-140px;
+    }
+
+    .h22::after {
+        right:-140px;
+    }
+
+    .conteiner_ul {
+        position: relative;
+        margin-left: 290px;   
+        background-color: rgba(0,0,0, 0.09) ;   
+        width: 750px;
+        height:100px;
+        overflow: hidden;
+        border-radius: 10px;
+        z-index: 2;
+    }
+
+    #h1-id {
+        top:40px;
+    }
+
+    .video-cuerpo {   
+        width: 100%;
+        background: linear-gradient(
+            rgba(0,0,0,.5),
+            rgba(0,0,0,.5)), url(../../assets/fondo.jpg);
+            
+    }
+    
+
+    
+
+    .cuerpo {
+        
+        z-index: 2; 
+        top:300px;
+        text-align: center;        
+        overflow: hidden;
+    }
+
+    
+
+    .barra-top {             
+        position: absolute;       
+        z-index: 2;
+        width: 100%;
+        border-bottom: 3px solid #af222e ;
+        
+     
+    }
+
+    
+
+    
