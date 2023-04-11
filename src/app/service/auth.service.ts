@@ -11,16 +11,16 @@ import { NuevoUsuario } from "../model/nuevo-usuario";
 })
 export class authService {
 
-    URL = 'http://localhost:8080/auth/';
+    URL = 'https://backend-deploy-j40e.onrender.com/auth/';
 
-    constructor(private httpClient: HttpClient) {}
+    constructor(private httpClient:HttpClient) { }
 
-    public nuevo(nuevoUsuario: NuevoUsuario): Observable<any> {
-        return this.httpClient.post<any>(this.URL+'nuevo', nuevoUsuario);
 
-    }
+  public nuevo(nuevoUsuario: NuevoUsuario): Observable<any>{
+    return this.httpClient.post<any>(this.URL + 'nuevo', nuevoUsuario);
+  }
 
-    public login(loginUsuario: LoginUsuario): Observable<JwtDto> {
-        return this.httpClient.post<JwtDto>(this.URL + 'login', loginUsuario);
-    }
+  public login(loginUsuario: LoginUsuario): Observable<JwtDto>{
+    return this.httpClient.post<JwtDto>(this.URL + 'login', loginUsuario)
+}
 }

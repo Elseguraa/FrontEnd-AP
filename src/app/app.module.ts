@@ -20,7 +20,9 @@ import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { EducacionComponent } from './components/educacion/educacion.component';
 import { HysComponent } from './components/hys/hys.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
-
+import { EditSkillComponent } from './components/hys/edit-skill.component';
+import { NewSkillComponent } from './components/hys/new-skill.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
 
 
 
@@ -38,6 +40,8 @@ import { ContactoComponent } from './components/contacto/contacto.component';
     EducacionComponent,
     HysComponent,
     ContactoComponent,
+    EditSkillComponent,
+    NewSkillComponent,
 
   ],
   imports: [
@@ -46,6 +50,7 @@ import { ContactoComponent } from './components/contacto/contacto.component';
     HttpClientModule,
     FormsModule,
     BrowserAnimationsModule,
+    NgCircleProgressModule.forRoot({})
   ],
   providers: [
     interceptorProvider

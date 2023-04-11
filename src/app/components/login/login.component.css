@@ -272,7 +272,7 @@ ul {
   @media screen and (max-width:700px) {
 	
 	ul {
-		display: flex;
+		display:flex;
 		position: absolute;
 		top: 93%;
 		left: 50%;

@@ -10,7 +10,7 @@ import { Educacion } from '../model/educacion';
 export class EducacionService {
 
 
-  URL = 'http://localhost:8080/educacion/';
+  URL = 'https://backend-deploy-j40e.onrender.com/educacion/';
 
   constructor(private httpClient : HttpClient) { }
 
