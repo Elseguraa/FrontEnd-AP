@@ -1,3 +1,10 @@
+- Usuario y contraseña :
+  ```sh
+  Usuario: adminn
+  Contraseña: admin
+  ```
+
+
 <h1 align="center">Portfolio Web Segura Lucas </h1>
 Es el desarrollo de una aplicacion web full stack la cual muestra infromacion persona, estudios, experiencia laboral, habilidades y proyectos, la misma permite hacer tanto el alta como la modificacion y la baja de los datos anteriormente mencionados.
 <br />
@@ -38,11 +45,7 @@ Para obtener una copia local en funcionamiento, seguí estos pasos :
 
 <h2 align="center">Requisitos</h2>
 
-- Usuario y contraseña :
-  ```sh
-  Usuario: adminn
-  Contraseña: admin
-  ```
+
 
 - localmente :
 - Instalar la ultima version de angular:
