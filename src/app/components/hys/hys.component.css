@@ -1,46 +1,44 @@
-
-
-    .h22 {
-        display: inline-block;
-        position: relative;
-        color: #fff;
-        font-size:1.8rem;
-	    text-align: center;
-	    text-transform: uppercase;
-        font-family: 'Montserrat', sans-serif; 
-	    font-weight: 600;
-	    padding-bottom:50px;   
-         
-        z-index: 2;
-        
-    }
-
-    .h22::after,.h22::before{
-        content: '';
-        position: absolute;
-        width: 120px;
-        height: 3px;
-        background-color: #dc3545;
-        top:0.6em;
-        transform:scale(0);
-        transition: all 0.3s ease-in;
-    }
-
+.h22 {
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    font-size:1.8rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 600;
+    padding-bottom:50px;   
+     
+    z-index: 2;
     
-    .h22:hover::before, .h22:hover::after{
-        transform:scale(1)
-        
-        
-    }
+}
+
+.h22::after,.h22::before{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color: #dc3545;
+    top:0.6em;
+    transform:scale(0);
+    transition: all 0.3s ease-in;
+}
+
+
+.h22:hover::before, .h22:hover::after{
+    transform:scale(1)
     
+    
+}
 
-    .h22::before{
-        left:-140px;
-    }
 
-    .h22::after {
-        right:-140px;
-    }
+.h22::before{
+    left:-140px;
+}
+
+.h22::after {
+    right:-140px;
+}
 
 
 
@@ -107,16 +105,7 @@
     }
 
     
-    @media screen and (max-width:700px) {
-        
-
-        
-
-            
-        
-        
-    }
-
+   
     
 
 

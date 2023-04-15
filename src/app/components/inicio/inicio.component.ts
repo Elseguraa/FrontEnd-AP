@@ -10,20 +10,22 @@ import { TokenService } from 'src/app/service/token.service';
   styleUrls: ['./inicio.component.css']
 })
 export class InicioComponent implements OnInit {
-  isLogged = false;
-  persona: persona = new persona("","","")
+  
+  persona: persona = new persona("","","","")
 
   constructor(private router:Router,public personaService: PersonaService, private tokenService: TokenService) {}
 
-  ngOnInit(): void {
-      this.personaService.getPersona().subscribe(data => {this.persona=data})
-      if(this.tokenService.getToken()) {
-        this.isLogged = true;
-      } else {
-        this.isLogged = false;
-      }
-  }
+  isLogged = false;
 
+  ngOnInit(): void {
+    this.cargarPersona();
+    if(this.tokenService.getToken()){
+      this.isLogged=true;
+    }else{
+      this.isLogged = false;
+    }
+  }
+  
   onLogOut():void {
     this.tokenService.logOut();
     window.location.reload();
@@ -32,4 +34,10 @@ export class InicioComponent implements OnInit {
   login() {
     this.router.navigate(['/login'])
   }
+
+  cargarPersona(){
+    this.personaService.detail(1).subscribe(data =>
+      {this.persona =data})
+  }
+  
 }

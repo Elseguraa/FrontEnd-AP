@@ -3,22 +3,19 @@
 <div class="video-cuerpo"> 
     <section class="cuerpo"> 
 
-        
+        <br>
+        <h1 class="h22" id="info">Skills</h1> 
+        <br>
+        <br>
         <button type="button" id="b-skill" class="btn btn-dark" routerLink="/newskill" *ngIf="isLogged">
             Agregar Skill
         </button>
+
         <div class="row"> 
 
-            
 
-<br>
-                <h1 class="h22" id="info">Skills</h1> 
+                
                 <br>
-
-                
-                
-                
-            
 
 
 
@@ -51,7 +48,7 @@
 
                       <td *ngIf="isLogged">
                         <button id="botoneww" class="btn btn-light" routerLink="/editskill/{{skill.id}}">
-                            <i class="bi bi-pencil-fill"></i> EDITAR</button>
+                            <i class="bi bi-pencil-fill"></i> EDITAR</button></td>
                             
                             
                         <br>

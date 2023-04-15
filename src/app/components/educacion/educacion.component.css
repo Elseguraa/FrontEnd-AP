@@ -9,11 +9,6 @@
     width: 90%;
 }
 
-
-
-
-    
-    
     .info {
         padding-top:50px;
     }
@@ -92,6 +87,8 @@
         right:-140px;
     }
 
+    
+
     .conteiner_ul {
         position: relative;
         margin-left: 290px;   
@@ -115,9 +112,6 @@
             
     }
     
-
-    
-
     .cuerpo {
         
         z-index: 2; 
@@ -219,10 +213,10 @@
             display: block;
         }
         .curriculum .fila .col{
-            width: 90%;
+            width: 95%;
         }
         .curriculum .fila .derecha{
-            margin-left: 20px;
+            margin-left: 100px;
         }
         .curriculum .fila .item .conectori{
             background-color: #dc3545;
@@ -247,15 +241,27 @@
         }
 
         #botonew {
-        margin-top: 25%;            
-        margin-right: 17%;
+        
+        margin-bottom: 35%;             
+        /*margin-right: 17%;*/
         }
 
         #botoneww {
             margin-bottom: 35%;            
-            margin-left: 12%;
+            /*margin-left: 12%;*/
             
             }
+
+            
+        
+            
+        
+            
+        
+            
+        
+            
+
         }
             
 

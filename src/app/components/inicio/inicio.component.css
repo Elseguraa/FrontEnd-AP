@@ -125,9 +125,9 @@ nav ul li a:hover {
 }
 
 .boton2 {
-    position: relative;
-    bottom:240px;
-    left:50px;
+    position: absolute;
+    margin-left: 50px;
+    margin-bottom: 550px;
     width: 100px;
     background-color: transparent;
     border:3px solid #dc3545;
@@ -138,19 +138,39 @@ nav ul li a:hover {
     transition: all 0.4s;
 }
 
+
+
 @media screen and (max-width:659px) {
     .boton2 {
-    position:absolute;   
-    margin-bottom: 530px;
-    margin-left: 180px;
-    width: 100px;
-    background-color: transparent;
-    border:3px solid #dc3545;
-    padding: 7px 0;
-    border-radius: 30px;
-    color:#fff;
-    font-size: 17px;
-    transition: all 0.4s;
+        position:absolute;   
+        margin-bottom: 530px;
+        
+        width: 100px;
+        background-color: transparent;
+        border:3px solid #dc3545;
+        padding: 7px 0;
+        border-radius: 30px;
+        color:#fff;
+        font-size: 17px;
+        transition: all 0.4s;
+        }
+
+    .btn  {
+        width: 85px;
+        height: 30px;
+        margin-right: 50px;
+    }
+
+    .boton2 {
+         
+        width: 100px;
+        background-color: transparent;
+        border:3px solid #dc3545;
+        padding: 7px 0;
+        border-radius: 30px;
+        color:#fff;
+        font-size: 17px;
+        transition: all 0.4s;
     }
 
 
@@ -203,4 +223,11 @@ nav ul li a:hover {
 
 * {
     scroll-behavior: smooth;
+}
+
+.btn  {
+    width: 85px;
+    height: 30px;
+    margin-left: 60px;
+    margin-bottom: 13px;
 }

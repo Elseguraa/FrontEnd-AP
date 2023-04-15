@@ -79,17 +79,6 @@
     text-decoration: none;
 }
 
-#p_1 {
-    color: #ccc !important;
-    font-family:'Open Sans', sans-serif  !important;
-    font-size: 1.1rem !important ;
-    line-height: 1.6 !important ;
-    margin-top: .5rem !important;
-    padding-bottom: 30px !important;
-    
-    
-    
-}
 
 .video-cuerpo {   
     width: 100%;
@@ -98,9 +87,6 @@
         rgba(0,0,0,.5)), url(../../../assets/fondo.jpg);
         
 }
-
-
-
 
 .cuerpo {
     

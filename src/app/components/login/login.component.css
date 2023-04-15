@@ -272,9 +272,22 @@ ul {
   @media screen and (max-width:700px) {
 	
 	ul {
-		display:flex;
+		display: flex;
 		position: absolute;
-		top: 93%;
+		top: 345px;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	  }
+	
+}
+
+
+@media screen and (max-height:700px) {
+	
+	ul {
+		display: flex;
+		position: absolute;
+		top: 345px;
 		left: 50%;
 		transform: translate(-50%, -50%);
 	  }

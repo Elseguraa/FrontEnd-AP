@@ -23,6 +23,13 @@ import { ContactoComponent } from './components/contacto/contacto.component';
 import { EditSkillComponent } from './components/hys/edit-skill.component';
 import { NewSkillComponent } from './components/hys/new-skill.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
+import { EditInicioComponent } from './components/inicio/edit-inicio.component';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideStorage,getStorage } from '@angular/fire/storage';
+import { ExperienciaComponent } from './components/experiencia/experiencia.component';
+import { NuevaExperienciaComponent } from './components/experiencia/nueva-experiencia.component';
+import { EditarExperienciaComponent } from './components/experiencia/editar-experiencia.component';
 
 
 
@@ -42,6 +49,10 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
     ContactoComponent,
     EditSkillComponent,
     NewSkillComponent,
+    EditInicioComponent,
+    ExperienciaComponent,
+    NuevaExperienciaComponent,
+    EditarExperienciaComponent,
 
   ],
   imports: [
@@ -50,7 +61,9 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
     HttpClientModule,
     FormsModule,
     BrowserAnimationsModule,
-    NgCircleProgressModule.forRoot({})
+    NgCircleProgressModule.forRoot({}),
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideStorage(() => getStorage())
   ],
   providers: [
     interceptorProvider
