@@ -1,3 +1,8 @@
+
+
+
+
+
 - Usuario y contraseña :
   ```sh
   Usuario: adminn
@@ -8,11 +13,22 @@
 <h1 align="center">Portfolio Web Segura Lucas </h1>
 Es el desarrollo de una aplicacion web full stack la cual muestra infromacion persona, estudios, experiencia laboral, habilidades y proyectos, la misma permite hacer tanto el alta como la modificacion y la baja de los datos anteriormente mencionados.
 <br />
-<a href="https://github.com/Elseguura/FrontEnd-AP"><strong>REPOSITORIO DEL PROYECTO FRONT-END</strong></a>
+
+<a href="https://github.com/Elseguraa/FrontEnd-AP"><strong> URL del Repo GitHub del Front-End</strong></a>
 <br/>
 <br/>
-<a href="https://github.com/Elseguura/BackEnd-AP"><strong>REPOSITORIO DEL PROYECTO BACK-END</strong></a>
+<a href="https://github.com/Elseguraa/BackEnd-AP"><strong>URL del Repo GitHub Back-End</strong></a>
 <br/>
+
+<a href="https://argp-frontend.web.app"><strong> URL Portfolio Front End (Firebase)</strong></a>
+<br/>
+<a href="https://backend-deploy-j40e.onrender.com"><strong> URL de APIs Back End (Render)</strong></a>
+ 
+
+
+
+
+
 <h2 align="center">Sobre el proyecto:</h2>
 El proyecto "Argentina Programa: Segunda Etapa #YoProgramo" me formó como programador para asi poder crear un portfolio web full stack. Este portfolio muestra mi información personal, estudios, experiencia laboral, conocimientos y habilidades en una interfaz visualmente atractiva. Es una herramienta útil para destacarme ante empleadores o clientes y me permitió poner en práctica mis habilidades y conocimientos en un proyecto real.
 <br/>
