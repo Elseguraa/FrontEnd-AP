@@ -23,7 +23,6 @@ Es el desarrollo de una aplicacion web full stack la cual muestra infromacion pe
 <a href="https://argp-frontend.web.app"><strong> URL Portfolio Front End (Firebase)</strong></a>
 <br/>
 <br/>
-<br/>
 <a href="https://backend-deploy-j40e.onrender.com"><strong> URL de APIs Back End (Render)</strong></a>
  
 
