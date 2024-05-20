@@ -74,7 +74,7 @@ Para obtener una copia local en funcionamiento, seguí estos pasos :
 
 - Clona el proyecto localmente.
   ```sh
-  git clone https://github.com/Luchopaulucci/portfolio-FrontEnd
+  git clone https://github.com/Elseguraa/FrontEnd-AP
   ```
 
 - Instalar paquetes npm.
