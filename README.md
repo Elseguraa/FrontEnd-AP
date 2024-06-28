@@ -7,6 +7,9 @@
   ```sh
   Usuario: adminn
   Contraseña: admin
+  (Primero abrir el link de render y esperar que cargue.
+  Una vez cargado abrir el link de firebase e ingresar con los datos de usuario)
+  
   ```
 
 
