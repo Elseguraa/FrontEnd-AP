@@ -12,7 +12,10 @@
 
 <h1 align="center">Portfolio Web Segura Lucas </h1>
 Es el desarrollo de una aplicacion web full stack la cual muestra infromacion persona, estudios, experiencia laboral, habilidades y proyectos, la misma permite hacer tanto el alta como la modificacion y la baja de los datos anteriormente mencionados.
-<br />
+<br/>
+
+
+<br/>
 
 [![image.png](https://i.postimg.cc/XNHdTZK6/image.png)](https://postimg.cc/RqtWtZbg)
 
