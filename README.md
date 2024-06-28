@@ -1,6 +1,6 @@
 
 
-
+[![image.png](https://i.postimg.cc/cH7TRdP4/image.png)](https://postimg.cc/vgBWMwQp)
 
 
 - Usuario y contraseña :
@@ -13,6 +13,8 @@
 <h1 align="center">Portfolio Web Segura Lucas </h1>
 Es el desarrollo de una aplicacion web full stack la cual muestra infromacion persona, estudios, experiencia laboral, habilidades y proyectos, la misma permite hacer tanto el alta como la modificacion y la baja de los datos anteriormente mencionados.
 <br />
+
+[![image.png](https://i.postimg.cc/MTjJqfc3/image.png)](https://postimg.cc/MMxFYTm1)
 
 <a href="https://github.com/Elseguraa/FrontEnd-AP"><strong> URL del Repo GitHub del Front-End</strong></a>
 <br/>
@@ -27,7 +29,7 @@ Es el desarrollo de una aplicacion web full stack la cual muestra infromacion pe
  
 
 
-
+[![image.png](https://i.postimg.cc/CLxJ8T7S/image.png)](https://postimg.cc/gr1v971T)
 
 
 <h2 align="center">Sobre el proyecto:</h2>
@@ -84,7 +86,7 @@ Para obtener una copia local en funcionamiento, seguí estos pasos :
   
 - Abrir el proyecto en un navegador.
   ```sh
-  ng serve
+  ng server
   ```
 <br/>
 <h4 align="center">Funcionalidades</h4>
@@ -105,6 +107,10 @@ Login con validacion para la edicion
 
 Diseño responsive para telefonos moviles
 <br/>
+
+[![image.png](https://i.postimg.cc/bwGT6x45/image.png)](https://postimg.cc/mPsCkHL3)
+
+
 <h4>Funciones para agregar en el futuro</h4>
 <br/>
 Modo oscuro.
