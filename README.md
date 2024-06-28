@@ -14,7 +14,7 @@
 Es el desarrollo de una aplicacion web full stack la cual muestra infromacion persona, estudios, experiencia laboral, habilidades y proyectos, la misma permite hacer tanto el alta como la modificacion y la baja de los datos anteriormente mencionados.
 <br />
 
-[![image.png](https://i.postimg.cc/MTjJqfc3/image.png)](https://postimg.cc/MMxFYTm1)
+[![image.png](https://i.postimg.cc/XNHdTZK6/image.png)](https://postimg.cc/RqtWtZbg)
 
 <a href="https://github.com/Elseguraa/FrontEnd-AP"><strong> URL del Repo GitHub del Front-End</strong></a>
 <br/>
